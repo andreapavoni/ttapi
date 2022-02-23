@@ -905,7 +905,7 @@ func (b *Bot) OnNewSong(clb func(NewSongEvt)) {
 
 // OnEndSong triggered at the end of the song. (Just before the newsong/nosong event)
 // The data returned by this event contains information about the song that has just ended.
-func (b *Bot) OnEndSong(clb func(H)) {
+func (b *Bot) OnEndSong(clb func(RoomInfoRes)) {
 	b.addCallback(endsong, clb)
 }
 

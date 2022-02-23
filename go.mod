@@ -1,4 +1,4 @@
-module github.com/alaingilbert/ttapi
+module github.com/andreapavoni/ttapi
 
 go 1.16
 
